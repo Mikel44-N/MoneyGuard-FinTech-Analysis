@@ -1,6 +1,7 @@
+
 # MoneyGuard — FinTech Analysis & Product Recommendation
 
-**Project status:** The project guide and presentation are published. The presentation includes screenshots of all three Power BI dashboard pages. The Power BI `.pbix` file has not yet been added to this repository.
+**Project status:** The MoneyGuard project guide, 10-slide presentation featuring screenshots of all three Power BI dashboard pages, and interactive Power BI dashboard file (.pbix) are published in this repository.
 
 ## Project overview
 
@@ -21,15 +22,17 @@ These are dataset-derived observations. They do not prove missed payments, real-
 ## Product recommendation
 
 The proposed MVP focuses on:
+
 1. A loan affordability calculator.
 2. A monthly cash-flow breakdown showing income, expenses, EMI, and projected remaining balance.
 3. Financial pressure alerts when projected outflows exceed income.
 
 ## Repository files
 
-- `MoneyGuard_Data_Sources_Metrics_Insights_Product_Decision.docx` — two-page guide covering data sources, metrics, insights, product decisions, and limitations.
-- `MoneyGuard_FinTech_Presentation.pptx` — 11-slide project presentation. It includes the Financial Health Overview, Loan Affordability & Cash Flow, and Customer Insights & Product Opportunities dashboard screenshots.
-- `README.md` — project overview and publication notes.
+- `MoneyGuard FinTech Dashboard.pbix` — interactive Power BI dashboard.
+- `MoneyGuard_FinTech_Presentation.pptx` — 10-slide project presentation, including screenshots of the Financial Health Overview, Loan Affordability & Cash Flow, and Customer Insights & Product Opportunities dashboard pages.
+- `MoneyGuard_Data_Sources_Metrics_Insights_Product_Decision.docx` — two-page guide covering data sources, key metrics, insights, product decisions, and limitations.
+- `README.md` — project overview, findings, and publication notes.
 
 ## Tools
 
@@ -38,8 +41,7 @@ The proposed MVP focuses on:
 
 ## Data and publication notes
 
-- The original `FinTech.csv` source dataset is not included. Only publish the source data if you have permission to share it and have confirmed it contains no personal, confidential, or otherwise restricted information.
-- The Power BI `.pbix` file is not included yet. Add it to the repository when ready, after checking that it does not embed restricted source data or credentials.
-- The third dashboard slide in the PowerPoint still contains a residual instruction to replace the screenshot area. Remove that line because the screenshot is already embedded.
-- The first slide contains a cohort group photograph with identifiable people and names. Confirm that you have permission to make it publicly accessible, or remove that slide before sharing the deck publicly.
-- Verify the figures against the final Power BI report before publication.
+- The original `FinTech.csv` source dataset is not included in this repository. Only publish it if you have permission to share it and have confirmed that it contains no personal, confidential, or otherwise restricted information.
+- Before sharing the Power BI file publicly, confirm that it does not expose personal or confidential source data, credentials, or other restricted information.
+- The findings describe patterns in this dataset; they should not be presented as proof of missed payments, financial distress, or validated customer demand.
+- Check that any photographs or identifiable people included in the public presentation are approved for public sharing.
